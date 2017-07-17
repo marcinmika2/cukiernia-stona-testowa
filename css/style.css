@@ -41,6 +41,24 @@ section{
     background-size: cover;
 }
 
+p{
+    font-size: 20px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 span{
+/*    font-family: 'Pacifico', cursive;*/
+    font-family: 'Rock Salt', cursive;
+    color: red;
+}
+
 i{
     width: 33%;
     font-size: 10px;
@@ -53,17 +71,67 @@ i:hover{
     color:darkred;
 }
 
+i span{
+    display: inline-block;
+    font-size: 30px;
+}
+
+form{
+    height: 500px;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+
+input{
+    width: 35%;
+    height: 30px;
+    margin: 3%;
+    text-align: center;
+}
+
+textarea{
+    width: 90%;
+    height: 200px;
+}
+
+button{
+    width: 90%;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+#section-1 h1{
+    width: 60%;
+    position: absolute;
+    top:30%;
+    font-size: 40px;
+}
+
+#section-1 h3{
+    width: 60%;
+    position: absolute;
+    top:50%;
+    font-size: 30px;
+}
+
 #section-1{
     height: 60vh;
     background-image:url(../img/section-1.jpg);
 }
 
-#section-2{
-
-}
-
 #section-3{
-     height: 50vh;
+    height: 50vh;
 }
 
 #section-3 article{
@@ -76,7 +144,6 @@ i:hover{
     background-image: url(../img/section-3-new.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    
 }
 
 #section-5{
@@ -103,14 +170,9 @@ i:hover{
     margin-bottom: 20px;
 }
 
-
 #section-7{
     height: 50vh;
     background-image:url(../img/section-7.jpg);
-}
-
-#section-8{
-    background-color: black
 }
 
 #section-9 article{
