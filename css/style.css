@@ -1,6 +1,8 @@
 body{
     margin: 0;
     background: white;
+    font-family: 'Prompt', sans-serif;
+    color: gray;
 }
 
 nav{
@@ -30,6 +32,18 @@ section{
     height: 60vh;
     float: left;
     text-align: center;
+}
+
+i{
+    width: 33%;
+    font-size: 10px;
+    color: red;
+    float: left;
+    margin-top: 20px;
+}
+
+i:hover{
+    color:darkred;
 }
 
 #section-1{
